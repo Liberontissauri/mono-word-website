@@ -1,10 +1,14 @@
 import React from 'react'
+import Navbar from "../../components/Navbar/Navbar.js"
 import "./Home.css"
 
 function Home() {
     return (
         <div>
-            <h1>this is the home page</h1>
+            <Navbar title="Mono Word"
+                    links={[
+                        {link: "https://www.github.com", content: "Features"},{link: "https://www.github.com", content: "Documentation"},{link: "https://www.github.com", content: "Github"}
+                    ]}></Navbar>
         </div>
     )
 }
