@@ -1,4 +1,6 @@
 .navbar-div-main {
+    position: absolute;
+    top: 0;
     height: 90px;
     width: 100%;
     background: rgb(0,0,0);
