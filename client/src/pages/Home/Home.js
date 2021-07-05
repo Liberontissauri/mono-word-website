@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from "../../components/Navbar/Navbar.js"
+import Hero from '../../components/Hero/Hero.js'
 import "./Home.css"
 
 function Home() {
@@ -9,6 +10,7 @@ function Home() {
                     links={[
                         {link: "https://www.github.com", content: "Features"},{link: "https://www.github.com", content: "Documentation"},{link: "https://www.github.com", content: "Github"}
                     ]}></Navbar>
+            <Hero></Hero>
         </div>
     )
 }
