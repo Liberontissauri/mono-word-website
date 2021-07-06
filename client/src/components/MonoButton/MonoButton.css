@@ -1,0 +1,20 @@
+.mono-button {
+    min-width: 320px;
+    min-height: 50px;
+    background: #5D90ED;
+    box-shadow: 0px 0px 19px 6px rgba(0, 0, 0, 0.25);
+    border: none;
+    border-radius: 35px;
+
+    color: #161616;
+    font-weight: 600;
+    font-size: 16pt;
+
+    transition: background 0.2s ease-in-out, color 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+.mono-button:hover {
+    cursor: pointer;
+    background: #161616;
+    color: #5D90ED;
+    transform: scale(1.03);
+}
