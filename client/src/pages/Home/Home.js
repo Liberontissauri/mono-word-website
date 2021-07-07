@@ -11,6 +11,9 @@ function Home() {
                         {link: "https://www.github.com", content: "Features"},{link: "https://www.github.com", content: "Documentation"},{link: "https://www.github.com", content: "Github"}
                     ]}></Navbar>
             <Hero></Hero>
+            <div className="content-section">
+
+            </div>
         </div>
     )
 }
